@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRavel Booking</title>
+    <style>
+        *{
+            display: flex; flex-direction: column;
+            margin: auto 10% auto 10%;
+            padding: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="border: 1px solid black;">Travling Booking</h1>
+    <br>
+    <br>
+    <form>
+        <div >
+          <label for="name">Your Name</label>
+          <input type="text"required>
+        </div>
+        <div >
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" required>
+        </div>
+        <div >
+          <label for="phone">Your Phone</label>
+          <input type="tel"  required>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div >
+          <label for="">Adults</label>
+          <input type="number" min="1" required>
+        </div>
+        <div>
+          <label for="">Children</label>
+          <input type="number" min="0" required>
+        </div>
+        <div>
+          <label for="">Booking Date</label>
+          <input type="date" required>
+        </div>
+        <div>
+          <label >Travel Date</label>
+          <input type="date" required>
+        </div>
+        <div>
+            <label for="">Destinition</label>
+            <select name="Destinition" id="">
+                <option value="">Islamabad</option>
+                <option value="">Lahore</option>
+                <option value="">Multan</option>
+                <option value="">Karachi</option>
+                <option value=""> Queta</option>
+                <option value="">Dir</option>
+                <option value="">Swat</option>
+                <option value="">faisalabad</option>
+                <option value="">Rawalpindi</option>
+            </select>
+        </div>
+        <div >
+          <label >Select Seat Preference</label>
+          <select required>
+              <option >Choose a Room from the List</option>
+              <option>Economy</option>
+              <option >Bussienss</option>
+              <option >Low class</option>
+          </select>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div >
+          <label for="">feedback</label>
+          <textarea placeholder="give us your feedback..." required></textarea>
+        </div><br>
+        <button type="submit">Book The Seat</button>
+      </form>
+</body>
+</html>

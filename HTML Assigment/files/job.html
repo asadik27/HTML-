@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB apllication</title>
+    <style>
+        *{
+            display: flex; flex-direction: column;
+            margin: auto 60px auto 60px;
+        }
+        #radio{
+            display: flex; flex-direction: row;
+        }
+        #ll{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body class="body">
+    <h1 style="border: 1px solid black; background-color: grey;">Job Application</h1>
+    <br>
+    <form action="">
+        <fieldset>
+            <Legend id="ll">Personal Details</Legend>
+            <label for="">Name</label>
+            <input type="text" required>
+            <label for=""> F Name</label>
+            <input type="text">
+            <label for="">CNIC</label>
+            <input type="number" required>
+            <label for="">Address</label>
+            <input type="text">
+            <label for="">Date Of Birth</label>
+            <input type="date">
+            <label for="">Qualification</label>
+           <span id="radio"> <input type="radio">Matric
+            <input type="radio">FSc
+            <input type="radio">BS </span>
+            <label for="">Ntationallity</label>
+            <select name="country" id="" required>
+                <option value="">Australia</option>
+                <option value="">Afghanistan</option>
+                <option value="">America</option>
+                <option value="">canada</option>
+                <option value="">Chaina</option>
+                <option value="">Denmark</option>
+                <option value="">England</option>
+                <option value="">Finland</option>
+                <option value="">France</option>
+                <option value="">Hong kong</option>
+                <option value="">India</option>
+                <option value="">Japan</option>
+                <option value="">Malaieshyia</option>
+                <option value="">Netherland</option>
+                <option value="">Pakitan</option>
+                <option value="">South Africa</option>
+                <option value="">SOuth korea</option>
+                <option value="">Thailand</option>
+                <option value="">USA</option>
+                <option value="">turkey</option>
+                <option value="">zimbwabwe</option>
+            </select>
+            <label for="">Gender</label>
+            <span id="radio">
+                <input type="radio">Male
+                <input type="radio">FeMale
+            </span>
+            <label for="">Relegion</label>
+             <select name="Religion" id="">
+                <option value="">Islam</option>
+                <option value="">Non Muslim</option>
+             </select>
+            <label for=""> your CV</label>
+            <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend id="ll">Contact Info</legend>
+            <label for="" >phone Number</label>
+            <input type="number" >
+            <label for="">Email</label>
+            <input type="email" required>
+        </fieldset>
+        <fieldset>
+            <legend id="ll">Eductional Info</legend>
+            <label for="">School</label>
+            <input type="text">
+            <label for="">College</label>
+            <input type="text">
+            <label for="">University</label>
+            <input type="text">
+            <label for="">CERTIFICATES</label>
+            <input type="file" required>
+        </fieldset>
+        <fieldset>
+            <legend id="ll">Work Expierience</legend>
+            <label for="">Position</label>
+            <input type="text">
+            <label for="">Are you Employed Now</label>
+           <span id="radio"><input type="checkbox">Yes
+            <input type="checkbox">No </span> 
+            <label for="">Expirence</label>
+            <input type="text">
+        </fieldset>
+        <br>
+        <input type="submit">
+        <br><br>
+    </form>
+</body>
+</html>
